@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+  EncryptedFiles.cpp
+  Library.cpp
+  MemoryUtility.cpp
+D:\Encrypt_Client\MemoryUtility.cpp(64,19): warning C4309: '=': truncation of constant value
+  NonEncryptedFiles.cpp
+  RemodelUtility.cpp
+  Generating Code...
+     Creating library D:\Encrypt_Client\Debug\ClientEncLib.lib and object D:\Encrypt_Client\Debug\ClientEncLib.exp
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'D:\Encrypt_Client\Debug\detours.pdb'; linking object as if no debug info
+detours.lib(modules.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(modules.obj)' or at 'D:\Encrypt_Client\Debug\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'D:\Encrypt_Client\Debug\detours.pdb'; linking object as if no debug info
+  ClientEncLib.vcxproj -> D:\Encrypt_Client\Debug\ClientEncLib.dll
