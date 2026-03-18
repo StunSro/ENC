@@ -1,0 +1,149 @@
+﻿  blowfish.cpp
+  PK2Builder.cpp
+D:\Encrypt_Client\ImportPk2\common\PK2Builder.h(50,31): error C2440: 'default argument': cannot convert from 'const char [7]' to 'char *'
+  (compiling source file 'common/PK2Builder.cpp')
+      D:\Encrypt_Client\ImportPk2\common\PK2Builder.h(50,31):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  
+D:\Encrypt_Client\ImportPk2\common\PK2Builder.cpp(513,31): warning C4267: 'argument': conversion from 'size_t' to 'uint8_t', possible loss of data
+D:\Encrypt_Client\ImportPk2\common\PK2Builder.cpp(713,11): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  PK2Reader.cpp
+D:\Encrypt_Client\ImportPk2\common\PK2Reader.h(52,99): error C2440: 'default argument': cannot convert from 'const char [11]' to 'char *'
+  (compiling source file 'common/PK2Reader.cpp')
+      D:\Encrypt_Client\ImportPk2\common\PK2Reader.h(52,99):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  
+D:\Encrypt_Client\ImportPk2\common\PK2Reader.h(52,41): error C2440: 'default argument': cannot convert from 'const char [7]' to 'char *'
+  (compiling source file 'common/PK2Reader.cpp')
+      D:\Encrypt_Client\ImportPk2\common\PK2Reader.h(52,41):
+      Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+  
+  PK2Writer.cpp
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(27,12): error C2485: '__declspec(identifier)' is not a recognized extended attribute
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(29,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(31,3): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(31,7): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(31,7): error C2065: 'eax': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(32,3): error C2146: syntax error: missing ';' before identifier 'ret'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(32,3): error C2065: 'ret': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(33,2): error C2143: syntax error: missing ';' before '}'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(122,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(132,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(153,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(174,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(207,4): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(275,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(346,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(426,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(458,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(498,3): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(122,9): error C2065: 'pushad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(125,3): error C2146: syntax error: missing ';' before identifier 'DWORD'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(134,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(134,9): error C2143: syntax error: missing ';' before 'constant'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(135,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(135,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(135,9): error C2146: syntax error: missing ';' before identifier 'pHolder'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(136,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(136,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(136,9): error C2143: syntax error: missing ';' before 'constant'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(137,4): error C2146: syntax error: missing ';' before identifier 'call'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(137,4): error C2065: 'call': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(137,9): error C2146: syntax error: missing ';' before identifier 'gfxFunc'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(138,3): error C2143: syntax error: missing ';' before '}'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(141,16): warning C4312: 'type cast': conversion from 'DWORD' to 'tGFXAccess *' of greater size
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(155,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(155,8): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(155,8): error C2065: 'ecx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(156,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(156,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(156,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(156,8): error C2065: 'eax': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(157,4): error C2760: syntax error: 'mov' was unexpected here; expected '{'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(157,8): error C2065: 'edx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(157,18): error C2760: syntax error: '+' was unexpected here; expected ','
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(157,24): error C2059: syntax error: ']'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(174,9): error C2065: 'popad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(177,3): error C2146: syntax error: missing ';' before identifier 'bInit'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(210,5): error C2065: 'pushad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(213,5): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(213,5): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(213,10): error C2146: syntax error: missing ';' before identifier 'ptr1'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(214,5): error C2146: syntax error: missing ';' before identifier 'call'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(214,5): error C2065: 'call': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(214,10): error C2146: syntax error: missing ';' before identifier 'gfxFunc'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(217,5): error C2146: syntax error: missing ';' before identifier 'popad'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(217,5): error C2065: 'popad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(218,4): error C2143: syntax error: missing ';' before '}'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(278,4): error C2065: 'pushad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(281,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(281,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(281,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(281,8): error C2065: 'eax': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(282,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(282,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(282,8): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(282,8): error C2065: 'ebx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(283,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(283,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(283,8): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(283,8): error C2065: 'ecx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(284,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(284,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(284,8): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(284,8): error C2065: 'edx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(287,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(287,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(287,9): error C2146: syntax error: missing ';' before identifier 'lpVar1'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(288,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(288,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(288,9): error C2143: syntax error: missing ';' before 'constant'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(289,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(289,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(289,9): error C2143: syntax error: missing ';' before 'constant'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(292,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(292,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(292,8): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(292,8): error C2065: 'ecx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(293,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(293,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(293,8): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(293,8): error C2065: 'edx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(294,4): error C2760: syntax error: 'mov' was unexpected here; expected '{'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(294,8): error C2065: 'eax': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(294,18): error C2760: syntax error: '+' was unexpected here; expected ','
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(294,24): error C2059: syntax error: ']'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(349,4): error C2065: 'pushad': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(352,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(352,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(352,8): error C2146: syntax error: missing ';' before identifier 'eax'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(352,8): error C2065: 'eax': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(353,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(353,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(353,8): error C2146: syntax error: missing ';' before identifier 'ebx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(353,8): error C2065: 'ebx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(354,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(354,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(354,8): error C2146: syntax error: missing ';' before identifier 'ecx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(354,8): error C2065: 'ecx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(355,4): error C2146: syntax error: missing ';' before identifier 'mov'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(355,4): error C2065: 'mov': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(355,8): error C2146: syntax error: missing ';' before identifier 'edx'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(355,8): error C2065: 'edx': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(358,4): error C2146: syntax error: missing ';' before identifier 'push'
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(358,4): error C2065: 'push': undeclared identifier
+D:\Encrypt_Client\ImportPk2\common\PK2Writer.cpp(358,4): error C1003: error count exceeds 100; stopping compilation
+  shared_io.cpp
+  ImportPk2.cpp
+D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(162,25): error C2664: 'bool PK2Writer::Open(const char *,void *,unsigned char)': cannot convert argument 2 from 'const char [7]' to 'void *'
+      D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(162,56):
+      Conversion loses qualifiers
+      D:\Encrypt_Client\ImportPk2\common\PK2Writer.h(31,7):
+      see declaration of 'PK2Writer::Open'
+      D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(162,25):
+      while trying to match the argument list '(const char [11], const char [7], size_t)'
+  
+D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(178,20): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(198,18): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(406,5): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...

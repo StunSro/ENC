@@ -1,0 +1,46 @@
+﻿  pch.cpp
+  blowfish.cpp
+  PK2Builder.cpp
+D:\Encrypt_Client\ImportPk2\common\PK2Builder.cpp(512,31): warning C4267: 'argument': conversion from 'size_t' to 'uint8_t', possible loss of data
+  PK2Reader.cpp
+  PK2Writer.cpp
+  shared_io.cpp
+D:\Encrypt_Client\ImportPk2\common\shared_io.cpp(57,18): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+D:\Encrypt_Client\ImportPk2\common\shared_io.cpp(60,46): warning C4244: 'argument': conversion from 'int64_t' to 'const unsigned int', possible loss of data
+D:\Encrypt_Client\ImportPk2\common\shared_io.cpp(60,74): warning C4244: 'argument': conversion from 'int64_t' to 'size_t', possible loss of data
+  ImportPk2.cpp
+C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(4924,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'ImportPk2.cpp')
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xutility(4924,18):
+      the template instantiation context (the oldest one first) is
+          D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(404,28):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              D:\Encrypt_Client\ImportPk2\ImportPk2.cpp(404,28):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'wWinMain'
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=std::+::_Size_type,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=std::+::_Size_type
+          ]
+          C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=std::+::_Size_type,
+              _InIt=wchar_t *,
+              _SizeTy=std::+::_Size_type
+          ]
+  
+  Generating Code...
+  ImportPk2.vcxproj -> D:\Encrypt_Client\Debug\ImportPk2.exe
