@@ -1,0 +1,37 @@
+
+================================================================================================================================================================
+For setting up client pk2 encryption:
+
+Requirements:
+ - Joymax PK2 tools
+ - Visual Studio 2022 + 2k5 + 2k10 for working with old compiler version (use SilkroadKit install_vs_2k5_2k22 thing)
+ - PK2 extractor (the one by pushedx)
+ 
+ 
+Howto:
+1. Extract all your current pk2 files using PK2 Extractor (pushedx) one into folders
+2. Configure client encryption (in src) for ur needs & compile it
+3. Inject client enc lib into Joymax PK2 Tools exe
+4. Create new Pk2 files (or file, with Joymax PK2 Tools while client enc dll is injected into it (at this step you can
+also put new pk2 key if u dont want to use the original (169841)). If you want to pack everything into a single .pk2 file you need to create a single pk2 file, for example
+	YourServerName.pk3 and create sub-directories in its root for each original pk2 file name like following:
+	 - media
+	 - data
+	 - particles
+	 - map
+	 - music
+	 
+	 
+	 if u want to keep original pk2 file names - just re-create them with original names and put contents as original, encryption will be applied while u add them back because pk2 enc library is loaded into jmx pk2 tool
+	 and put all the original pk2 file contents that you extracted using Pk2 Extractor before in matching folders
+5. Move old pk2 files somewhere else from ur client root folder (because sro launcher/client originally tries to still load them.. (wtf, jmx?))
+6. Move created YourServerName.pk3 to ur client root folder
+7. Inject client enc dll into silkroad.exe, sro_client.exe and replacer.exe (yes, file names can also be changed... check client enc lib src for configs)
+
+Client enc lib is supposed to be packed with VMProtect and 'packed' into silkroad.exe / sro_client.exe / replacer.exe so that dll does not appear in client folder
+If you are doing development (dll is not packed with vmprotect), you need to have VMProtectSDK32.dll in your game folder
+
+
+
+
+================================================================================================================================================================

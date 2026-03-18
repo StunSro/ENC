@@ -1,0 +1,87 @@
+#include "pch.h"
+#include <stdio.h>
+#include <stdbool.h>
+#include <random>
+#include <Windows.h>
+
+unsigned char ENCRYPTION_TABLE[256] = { 0 };
+unsigned char DECRYPTION_TABLE[256] = { 0 };
+
+void generate_tables(unsigned char encryption_table[], unsigned char decryption_table[]) 
+{
+    for (int i = 0; i < 256; i++) 
+    {
+        encryption_table[i] = (unsigned char)i;
+    }
+
+    for (int i = 256 - 1; i > 0; i--) 
+    {
+        int j = rand() % (i + 1);
+        unsigned char temp = encryption_table[i];
+        encryption_table[i] = encryption_table[j];
+        encryption_table[j] = temp;
+    }
+
+    for (int i = 0; i < 256; i++) 
+    {
+        decryption_table[encryption_table[i]] = (unsigned char)i;
+    }
+}
+
+
+bool validate_tables() 
+{
+    unsigned char reverse_check[256] = { 0 };
+
+    for (int i = 0; i < 256; i++) 
+    {
+        unsigned char enc_val = ENCRYPTION_TABLE[i];
+        unsigned char dec_val = DECRYPTION_TABLE[enc_val];
+        if (reverse_check[enc_val] != 0) 
+        {
+            printf("Duplicate value in ENCRYPTION_TABLE: %x\n", enc_val);
+            return false;
+        }
+
+        if (dec_val != i) 
+        {
+            printf("Mismatch at index %x: DECRYPTION_TABLE[%x] != %x\n", i, enc_val, i);
+            return false;
+        }
+        reverse_check[enc_val] = 1;
+    }
+    return true;
+}
+
+
+int main() 
+{
+    srand(GetTickCount());
+    generate_tables(ENCRYPTION_TABLE, DECRYPTION_TABLE);
+
+    if (validate_tables()) 
+    {
+        printf("Tables are valid!\n");
+    }
+    else 
+    {
+        printf("Tables are invalid!\n");
+    }
+
+    printf("Encryption Table:\n");
+    for (int i = 0; i < 256; i++) 
+    {
+        printf("0x%02X, ", ENCRYPTION_TABLE[i]);
+        if ((i + 1) % 16 == 0) printf("\n");
+    }
+
+    printf("\nDecryption Table:\n");
+    for (int i = 0; i < 256; i++) 
+    {
+        printf("0x%02X, ", DECRYPTION_TABLE[i]);
+        if ((i + 1) % 16 == 0) printf("\n");
+    }
+
+    getchar();
+    return 0;
+}
