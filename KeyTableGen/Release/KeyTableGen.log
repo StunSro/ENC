@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  KeyTableGen.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  KeyTableGen.vcxproj -> C:\Users\Chernobyl\Desktop\Encrypt_Client2\Encrypt_Client2\Encrypt_Client\Release\KeyTableGen.exe
